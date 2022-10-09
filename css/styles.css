@@ -1,0 +1,269 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:   rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    
+}
+
+p   {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+li  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+h4  {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.work-experience .subtitle{
+    color: rgba(251, 109, 58, 1)
+}
+
+.education .subtitle{
+    color: rgba(251, 109, 58, 1)
+}
+
+.sidebar    {
+    width: 370px;
+    background: rgba(30, 41, 57, 1);
+    color: rgba(255, 255, 255, 1);
+    padding-top: 40px;
+    margin: 40px 0px 40px 40px;
+}
+
+.sidebar > .content {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contacts p {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 8px 0px 0px 0px;
+}
+
+.contacts a {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contacts h3 {
+    margin: 0px;
+}
+
+.contacts .phone-number {
+    text-decoration: none;
+}
+
+.contacts p:last-child {
+    margin: 0;
+}
+
+.skills h3 {
+    margin-bottom: 8px;
+    margin-top: 45px;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.skills ul li::before {
+    content: "\2022";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+}
+
+.skills li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* MAIN CONTENT STYLES */
+.main-content {
+    width: calc(100% - 370px);
+    padding: 0;
+}
+
+.summary {
+    margin-bottom: 40px;
+}
+
+.summary > h4 {
+    margin: 142px 629px 19px 88px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.summary > h2 {
+    margin: 0px 440px 24px 88px; 
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.summary p {
+    margin: 0px 200px 40px 88px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects > h3 {
+    margin: 0px 687px 8px 88px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.projects > ol {
+    margin: 8 0 1.5em 0;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol > li {
+    margin: 0;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol > li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+    content: counter(item) ".";
+    margin: 0px 13px 0px 88px;
+}
+
+ol > li > span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.projects a {
+    margin: 0px 116px, 51px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #595959;
+}
+
+.work-experience {
+    margin: 51px 0px 0px 0px;
+}
+
+.work-experience > h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0px 584px 12px 88px;
+}
+
+.work-experience > .experience > p > span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000; 
+}
+
+.work-experience > .experience {
+    margin: 12px 0px;
+}
+
+.work-experience > .experience > h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 450px 11px 88px;
+}
+
+.work-experience > .experience > p {
+    margin: 0px 450px 8px 88px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.work-experience > .experience > ul {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0px 100px 16px 109px;
+    padding: 0;
+}
+
+.education > h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 43px 664px 12px 88px;
+}
+
+.education > h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 500px 11px 88px;
+}
+
+.education > h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0px 500px 12px 88px;
+}
+
+.education > p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0px 540px 147px 88px;
+}
